@@ -12,6 +12,10 @@ import { TensorFlow } from "@/components/ui/svgs/tensorflow";
 import { FastAPI } from "@/components/ui/svgs/fastapi";
 import { HuggingFace } from "@/components/ui/svgs/huggingface";
 import { AWS } from "@/components/ui/svgs/aws";
+import { OpenAI } from "@/components/ui/svgs/openai";
+import { Anthropic } from "@/components/ui/svgs/anthropic";
+import { Gemini } from "@/components/ui/svgs/gemini";
+import { LangChain } from "@/components/ui/svgs/langchain";
 
 export const DATA = {
   name: "Rishabh Kumar",
@@ -28,10 +32,14 @@ export const DATA = {
     { name: "Python", icon: Python },
     { name: "PyTorch", icon: PyTorch },
     { name: "TensorFlow", icon: TensorFlow },
-    { name: "FastAPI", icon: FastAPI },
     { name: "Hugging Face", icon: HuggingFace },
-    { name: "React", icon: ReactLight },
+    { name: "LangChain", icon: LangChain },
+    { name: "OpenAI", icon: OpenAI },
+    { name: "Anthropic", icon: Anthropic },
+    { name: "Gemini", icon: Gemini },
+    { name: "FastAPI", icon: FastAPI },
     { name: "Next.js", icon: NextjsIconDark },
+    { name: "React", icon: ReactLight },
     { name: "Typescript", icon: Typescript },
     { name: "Node.js", icon: Nodejs },
     { name: "PostgreSQL", icon: Postgresql },
@@ -130,7 +138,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image:
+        "https://raw.githubusercontent.com/Rishabhmannu/edge-cbc-analyzer/main/readme_artifacts/gradio1.png",
       video: "",
     },
     {
@@ -159,7 +168,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image:
+        "https://raw.githubusercontent.com/Rishabhmannu/zen-daily-wisdom/main/screenshots/frontend-page.png",
       video: "",
     },
     {
@@ -184,7 +194,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image:
+        "https://raw.githubusercontent.com/Rishabhmannu/banking-observability-platform/main/data/models/model_evaluation.png",
       video: "",
     },
     {
@@ -213,7 +224,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image:
+        "https://raw.githubusercontent.com/Rishabhmannu/skywings-airways/main/screenshots/landing-page.png",
       video: "",
     },
     {
@@ -238,7 +250,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image:
+        "https://raw.githubusercontent.com/Rishabhmannu/amazon-greencart-hackathon/main/images/dashboard.jpeg",
       video: "",
     },
   ],
