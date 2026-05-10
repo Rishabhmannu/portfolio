@@ -1,47 +1,33 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Rishabh Kumar — Personal Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Source for my personal portfolio site, deployed on Vercel.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+Built on **Next.js 16 + React 19 + Tailwind 4 + shadcn/ui**, scaffolded from [Magic UI's portfolio template](https://github.com/magicuidesign/portfolio) and customised for AI Full-Stack engineering content.
 
-# Features
+## Stack
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+- **Framework:** Next.js 16 · React 19 · TypeScript 5.9
+- **Styling:** Tailwind 4 · shadcn/ui · Magic UI
+- **Content:** content-collections + MDX
+- **Hosting:** Vercel
 
-# Getting Started Locally
+## Local development
 
-1. Clone this repository to your local machine:
+```bash
+pnpm install
+pnpm dev
+```
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+The dev server runs on `http://localhost:3000` (or the next available port).
 
-2. Move to the cloned directory
+## Project structure
 
-   ```bash
-   cd portfolio
-   ```
+- [`src/data/resume.tsx`](src/data/resume.tsx) — single source of truth for personal data (identity, skills, work, education, projects, hackathons, contact)
+- [`src/components/section/`](src/components/section) — page sections (work, projects, hackathons, contact)
+- [`src/components/ui/svgs/`](src/components/ui/svgs) — tech-stack icon components
+- [`content/`](content) — MDX blog posts (rendered at `/blog`)
+- [`public/`](public) — static assets (avatar, institutional logos)
 
-3. Install dependencies:
+## License
 
-   ```bash
-   pnpm install
-   ```
-
-4. Start the local Server:
-
-   ```bash
-   pnpm dev
-   ```
-
-5. Open the [Config file](./src/data/resume.tsx) and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+MIT — see [LICENSE](LICENSE). Original template © Magic UI Design.
