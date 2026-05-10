@@ -67,8 +67,46 @@ export const DATA = {
     },
   },
 
-  work: [],
-  education: [],
+  work: [
+    {
+      company: "ICICI Bank",
+      href: "https://www.icicibank.com",
+      badges: [],
+      location: "Mumbai, India (Onsite)",
+      title: "Technology Intern — Monitoring & Observability",
+      logoUrl: "/icici.svg",
+      start: "May 2025",
+      end: "July 2025",
+      description:
+        "Contributed to a banking-grade AIOps platform for 37+ microservices in a Docker/Kubernetes environment. Built ML-based DDoS detection (Isolation Forest, LSTM, One-Class SVM), 14+ Grafana dashboards across DBs, queues, cache, and containers, and automated anomaly-detection workflows. Extended observability and distributed-tracing support to Windows IIS-based services.",
+    },
+  ],
+  education: [
+    {
+      school: "Indian Institute of Information Technology, Allahabad",
+      href: "https://www.iiita.ac.in",
+      degree: "B.Tech in Information Technology · CGPA 8.89/10",
+      logoUrl: "/iiita.png",
+      start: "2022",
+      end: "2026",
+    },
+    {
+      school: "Jawahar Vidya Mandir, Shyamali",
+      href: "#",
+      degree: "AISSCE (Class XII, CBSE) · 96.6%",
+      logoUrl: "/jvm-shyamali-ranchi.jpeg",
+      start: "2019",
+      end: "2021",
+    },
+    {
+      school: "St. Xavier's School, Doranda",
+      href: "#",
+      degree: "ICSE (Class X, CISCE) · 96.7%",
+      logoUrl: "/st-xaviers-school-logo.jpg",
+      start: "2017",
+      end: "2019",
+    },
+  ],
   projects: [],
   hackathons: [],
 } as const;
