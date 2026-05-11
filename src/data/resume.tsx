@@ -117,6 +117,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "financebench-rag-agent",
+      href: "https://github.com/Rishabhmannu/financebench-rag-agent",
+      dates: "2026 · in progress",
+      active: true,
+      description:
+        "Multi-agent LangGraph RAG system for financial document Q&A, reaching 47.3% correctness on the FinanceBench benchmark (150 questions, 32 companies) — within 8 points of the EMNLP 2025 SOTA — via selective agentic retrieval and a LoRA fine-tuned BGE reranker. RBAC enforced at the Qdrant payload-filter layer, HITL approval on high-stakes answers via LangGraph interrupt(), and a self-hosted LiteLLM + Langfuse v3 + Redis observability stack. Backend complete with 294 passing tests; Next.js 16 frontend in progress.",
+      technologies: [
+        "LangGraph",
+        "FastAPI",
+        "Qdrant",
+        "Claude Sonnet 4.6",
+        "PostgreSQL",
+        "Next.js (WIP)",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Rishabhmannu/financebench-rag-agent",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "edge-cbc-analyzer",
       href: "https://github.com/Rishabhmannu/edge-cbc-analyzer",
       dates: "2026 · 8th-semester research project",
