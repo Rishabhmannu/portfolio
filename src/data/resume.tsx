@@ -20,7 +20,7 @@ import { LangChain } from "@/components/ui/svgs/langchain";
 export const DATA = {
   name: "Rishabh Kumar",
   initials: "RK",
-  url: "https://portfolio-hazel-sigma-51.vercel.app",
+  url: "https://iamrishabh.me",
   location: "Lucknow, Uttar Pradesh, India",
   locationLink: "https://www.google.com/maps/place/Lucknow",
   description:
