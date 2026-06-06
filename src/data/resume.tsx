@@ -26,7 +26,7 @@ export const DATA = {
   description:
     "AI Full-Stack Engineer · Final-year B.Tech (IT) @ IIIT Allahabad. Applied AI systems engineering — from model design through agent orchestration to user-facing apps.",
   summary:
-    "Final-year B.Tech (IT) at **IIIT Allahabad**, working at the intersection of applied AI and shipped product. Most recently completed a Technology Internship with [ICICI Bank's Monitoring & Observability team](/#work), contributing to a banking-grade AIOps platform with ML-based anomaly detection. Currently focused on **AI/ML research at IIIT Allahabad** — including a [5-tier edge-deployed CBC analysis pipeline on Jetson](/#projects) — alongside applied LLM systems being prepared for release.",
+    "Final-year B.Tech (IT) at **IIIT Allahabad**, working at the intersection of applied AI and shipped product. Most recently completed a Technology Internship at [ICICI Bank working on Applied ML for Observability & AIOps](/#work), where I received a Pre-Placement Offer for full-time return. Currently focused on **AI/ML research at IIIT Allahabad** — including a [5-tier edge-deployed CBC analysis pipeline on Jetson](/#projects) — alongside an [open-source agentic-RAG system recently shipped to PyPI](/#projects).",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "Python", icon: Python },
@@ -81,12 +81,12 @@ export const DATA = {
       href: "https://www.icicibank.com",
       badges: [],
       location: "Mumbai, India (Onsite)",
-      title: "Technology Intern — Monitoring & Observability",
+      title: "Technology Intern — Applied ML for Observability & AIOps",
       logoUrl: "/icici.svg",
       start: "May 2025",
       end: "July 2025",
       description:
-        "Contributed to a banking-grade AIOps platform for 37+ microservices in a Docker/Kubernetes environment. Built ML-based DDoS detection (Isolation Forest, LSTM, One-Class SVM), 14+ Grafana dashboards across DBs, queues, cache, and containers, and automated anomaly-detection workflows. Extended observability and distributed-tracing support to Windows IIS-based services.",
+        "Contributed to a banking-grade AIOps platform for 37+ microservices in a Docker/Kubernetes environment. Built ML-based DDoS detection (Isolation Forest, LSTM, One-Class SVM), 14+ Grafana dashboards across DBs, queues, cache, and containers, and automated anomaly-detection workflows. Extended observability and distributed-tracing support to Windows IIS-based services. Received Pre-Placement Offer for full-time return.",
     },
   ],
   education: [
@@ -119,17 +119,19 @@ export const DATA = {
     {
       title: "financebench-rag-agent",
       href: "https://github.com/Rishabhmannu/financebench-rag-agent",
-      dates: "2026 · in progress",
+      dates: "2026 · shipped",
       active: true,
       description:
-        "Multi-agent LangGraph RAG system for financial document Q&A, reaching 47.3% correctness on the FinanceBench benchmark (150 questions, 32 companies) — within 8 points of the EMNLP 2025 SOTA — via selective agentic retrieval and a LoRA fine-tuned BGE reranker. RBAC enforced at the Qdrant payload-filter layer, HITL approval on high-stakes answers via LangGraph interrupt(), and a self-hosted LiteLLM + Langfuse v3 + Redis observability stack. Backend complete with 294 passing tests; Next.js 16 frontend in progress.",
+        "Multi-agent LangGraph RAG system for financial document Q&A, reaching 72.7% correctness on the FinanceBench benchmark (150 questions, 32 companies) under a Cohen's κ = 0.932 calibrated judge — within ~3 pts of Claude-2 long-context (~76%) and ~30 pts above the paper baselines (38–43%). RBAC enforced at the Qdrant payload-filter layer, multi-party HITL approval on high-stakes answers via LangGraph interrupt(), and a self-hosted LiteLLM + Langfuse v3 + Redis observability stack. Shipped to PyPI and GHCR as a `financebench` CLI with 347 passing tests; pre-vectorized embeddings published as a Hugging Face dataset for full-corpus reproducibility.",
       technologies: [
         "LangGraph",
         "FastAPI",
         "Qdrant",
         "Claude Sonnet 4.6",
         "PostgreSQL",
-        "Next.js (WIP)",
+        "BGE Reranker",
+        "PyPI",
+        "Hugging Face Hub",
       ],
       links: [
         {
