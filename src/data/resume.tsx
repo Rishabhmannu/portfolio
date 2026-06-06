@@ -140,7 +140,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/financebench-starter-banner.png",
       video: "",
     },
     {
