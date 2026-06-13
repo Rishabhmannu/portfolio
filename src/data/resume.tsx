@@ -24,9 +24,9 @@ export const DATA = {
   location: "Lucknow, Uttar Pradesh, India",
   locationLink: "https://www.google.com/maps/place/Lucknow",
   description:
-    "AI Full-Stack Engineer · Final-year B.Tech (IT) @ IIIT Allahabad. Applied AI systems engineering — from model design through agent orchestration to user-facing apps.",
+    "AI Full-Stack Engineer · B.Tech (IT) @ IIIT Allahabad '26. Applied AI systems engineering — from model design through agent orchestration to user-facing apps.",
   summary:
-    "Final-year B.Tech (IT) at **IIIT Allahabad**, working at the intersection of applied AI and shipped product. Most recently completed a Technology Internship at [ICICI Bank working on Applied ML for Observability & AIOps](/#work), where I received a Pre-Placement Offer for full-time return. Currently focused on **AI/ML research at IIIT Allahabad** — including a [5-tier edge-deployed CBC analysis pipeline on Jetson](/#projects) — alongside an [open-source agentic-RAG system recently shipped to PyPI](/#projects).",
+    "B.Tech (IT) at **IIIT Allahabad** ('26), working at the intersection of applied AI and shipped product. Most recently completed a Technology Internship at [ICICI Bank working on Applied ML for Observability & AIOps](/#work), where I received a Pre-Placement Offer for full-time return. Currently focused on **ongoing AI/ML research** — including a [5-tier edge-deployed CBC analysis pipeline on Jetson](/#projects) — alongside an [open-source agentic-RAG system recently shipped to PyPI](/#projects).",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "Python", icon: Python },
